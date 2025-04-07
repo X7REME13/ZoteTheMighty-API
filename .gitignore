@@ -1,0 +1,32 @@
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+instance/
+.pytest_cache/
+
+# Environment variables
+.env
+*.env
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Flask specific
+*.log
+*.sqlite3
+*.db
+instance/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
